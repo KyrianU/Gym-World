@@ -11,7 +11,11 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: #404040; 
+    background-color: #99c2ff;
 }
+
+
+    
 
 h1, h2 {
     font-family: Roboto, sans-serif;
@@ -50,4 +54,30 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3385ff;
+}
+
+#hero-image-outer {
+
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-image {
+    
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-leon-ardho-1552242\ \(2\).jpg') no-repeat center center;
+    animation-name: hero-image-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-image-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
