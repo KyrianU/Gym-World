@@ -133,3 +133,13 @@ h1, h2 {
 
     position: absolute;
 }
+
+#top-box {
+     
+    background-color: #3366ff;
+    text-align: center;
+    position: relative;
+    
+    height: 200px;
+    width: 30%;
+}
