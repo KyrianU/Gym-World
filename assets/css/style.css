@@ -113,6 +113,11 @@ h1, h2 {
        
 }
 
+hr {
+    margin: 10px;
+}
+
+
 #text-box {
     font-size: 150%;
     font-family: Montserrat, sans-serif;
@@ -134,12 +139,61 @@ h1, h2 {
     position: absolute;
 }
 
-#top-box {
-     
-    background-color: #3366ff;
-    text-align: center;
-    position: relative;
+.photos  {
     
-    height: 200px;
-    width: 30%;
+    width: 400px;
+    height: 400px;
+    padding: 30px ;
+    border-width: 1px;
+    margin: 0 auto;
+    
+    
 }
+
+
+#photos-circle {
+    background: url('../images/pexels-andrea-piacquadio-903171.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+
+#photos-circle2 {
+
+    background: url('../images/pexels-andrea-piacquadio-905336.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#photos-circle3 {
+    
+    background: url('../images/shutterstock_1056233618.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+    
+
+
+.about-gymworld-box1 {
+    text-align: center;
+    padding: 10px 5px 25px 5px;
+	border-radius: 10px;
+	width: 66%;
+	margin: 2%;
+	background-color: #809fff;
+    position: relative;
+    left: 15%;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+    
+    
+    
