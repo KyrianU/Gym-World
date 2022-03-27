@@ -6,6 +6,11 @@
     border: none;
 }
 
+header {
+
+    height: 100px;
+}
+
 nav {
 
     display: block;
@@ -34,6 +39,8 @@ h1, h2 {
     font-size: 280%;
     margin-left: 40px;
     text-shadow: 2px 2px 4px #3385ff;
+    
+    
 }
 
 #menu {
@@ -116,8 +123,7 @@ h1, h2 {
 
     font-family: Roboto, sans-serif;
     color:#809fff;
-    
-       
+         
 }
 
 hr {
@@ -168,8 +174,7 @@ hr {
     padding: 30px ;
     border-width: 1px;
     margin: 0 auto;
-    
-    
+       
 }
 
 
@@ -285,14 +290,14 @@ footer {
     color: #3a3a3a;
 }
 
-#class-page {
-     
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
+#class-heading {
 
-    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    
 }
+
 
 #fitness-header > h2 {
     background-color: #809fff;
@@ -301,6 +306,8 @@ footer {
     text-align: center;
     padding: 30px 0;
 }
+
+
 
 #div-circuit {
 
@@ -342,8 +349,7 @@ footer {
 
     background-color: #809fff;
     width: 32%;
-    margin-left: 200px;
-    float: left;
+    display: inline-block;
     height: 250px;
     border-radius: 8px;
     box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
@@ -354,14 +360,36 @@ footer {
 
     background-color: #809fff;
     width: 32%;
-    margin-right: 200px;
-    float: right;
+    display: inline-block;
     height: 250px;
     border-radius: 8px;
     box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
 
 }
+
+
+
+#timetable-heading {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+
+#table-header > h2 {
+    background-color: #809fff;
+    color: #fff;
+    margin: auto 0;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+
+
+
 
 
 
