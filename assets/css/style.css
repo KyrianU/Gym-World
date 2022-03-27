@@ -212,10 +212,6 @@ hr {
 
     margin-top: 10%;
 }
-
-
-
-
       
 
 
@@ -224,8 +220,6 @@ img {
     width: 75%;
     margin: 5px;
 }
-
-
 
 
 #div-right {
@@ -292,7 +286,7 @@ footer {
 }
 
 #class-page {
-
+     
     height: 500px;
     width: 100%;
     overflow: hidden;
@@ -300,15 +294,27 @@ footer {
     position: relative;
 }
 
-#fitness-header>h2 {
+#fitness-header > h2 {
     background-color: #809fff;
     color: #fff;
     margin: auto 0;
     text-align: center;
     padding: 30px 0;
 }
-   
-#div1 {
+
+#div-circuit {
+
+    background-color: #809fff;
+    width: 32%;
+    margin-right: 7px;
+    float: right;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+#div-strength {
 
     background-color: #809fff;
     width: 32%;
@@ -318,23 +324,9 @@ footer {
     border-radius: 8px;
     box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
-
 }
 
-#div3 {
-
-    background-color: #809fff;
-    width: 32%;
-    margin-right: 7px;
-    float: right;
-    height: 250px;
-    border-radius: 8px;
-    box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
-    text-align: center;    
-}
-
-
-#div2 {
+#div-body-pump { 
 
     background-color: #809fff;
     width: 32%;
@@ -343,13 +335,14 @@ footer {
     border-radius: 8px;
     box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
+
 }
 
-#div4 {
+#div-hiit {
 
     background-color: #809fff;
     width: 32%;
-    margin-left: 100px;
+    margin-left: 200px;
     float: left;
     height: 250px;
     border-radius: 8px;
@@ -357,17 +350,19 @@ footer {
     text-align: center;
 }
 
-#div5 {
+#div-cycle {
 
     background-color: #809fff;
     width: 32%;
-    margin-right: 100px;
+    margin-right: 200px;
     float: right;
     height: 250px;
     border-radius: 8px;
     box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
-    text-align: center;  
+    text-align: center;
+
 }
+
 
 
 
