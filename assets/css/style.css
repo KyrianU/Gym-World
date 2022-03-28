@@ -9,6 +9,7 @@
 header {
 
     height: 100px;
+    
 }
 
 nav {
@@ -21,7 +22,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: #404040; 
-    background-color: #99c2ff;
+    background-color: #b3c6ff;
 }
 
 
@@ -342,6 +343,7 @@ footer {
     border-radius: 8px;
     box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
+    
 
 }
 
@@ -386,6 +388,31 @@ footer {
     padding: 30px 0;
     
 }
+
+#gym-timetable {
+    
+    display: flex;
+    justify-content: center;
+}
+
+table {
+
+    box-sizing: border-box;
+    border-spacing: 2px;
+    text-align: center;
+    
+}
+
+table, th, td {
+
+    border: 2px solid #668cff;
+    
+    
+}
+
+
+
+ 
 
 
 
