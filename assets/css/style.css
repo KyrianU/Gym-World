@@ -84,7 +84,7 @@ h1, h2 {
     
     height: 500px;
     width: 100%;
-    background: url('../images/shutterstock_435382726.jpg') no-repeat center center;
+    background: url('../images/pexels-leon-ardho-1552242\ \(2\).jpg') no-repeat center center;
     background-size: cover;
     animation-name: hero-image-zoom;
     animation-duration: 4s;
@@ -302,6 +302,7 @@ footer {
 }
 
 
+
 #fitness-header > h2 {
     background-color: #809fff;
     color: #fff;
@@ -310,38 +311,43 @@ footer {
     padding: 30px 0;
 }
 
+.class-container {
+    
+    display: flex;
+    width: 100%;
+     
+
+}
 
 
-#div-circuit {
+.div-circuit {
 
     background-color: #809fff;
     width: 32%;
-    margin-right: 15px;
-    float: right;
-    height: 150px;
+    margin: 3px;
+    height: 300px;
     border-radius: 8px;
     box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
 }
 
-#div-strength {
+.div-strength {
 
     background-color: #809fff;
     width: 32%;
-    margin-left: 15px;
-    float: left;
-    height: 150px;
+    margin: 3px;
+    height: 300px;
     border-radius: 8px;
     box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
 }
 
-#div-body-pump { 
+.div-body-pump { 
 
     background-color: #809fff;
     width: 32%;
-    margin: 0 auto;
-    height: 150px;
+    margin: 3px;
+    height: 300px;
     border-radius: 8px;
     box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
@@ -349,23 +355,23 @@ footer {
 
 }
 
-#div-hiit {
+.div-hiit {
 
     background-color: #809fff;
     width: 32%;
-    display: inline-block;
-    height: 150px;
+    margin: 3px;
+    height: 300px;
     border-radius: 8px;
     box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
 }
 
-#div-cycle {
+.div-cycle {
 
     background-color: #809fff;
     width: 32%;
-    display: inline-block;
-    height: 150px;
+    margin: 3px;
+    height: 300px;
     border-radius: 8px;
     box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
@@ -405,12 +411,12 @@ table {
     
 }
 
-table, th, td {
 
-    border: 2px solid #668cff;
-    
-    
+table , td , th{ 
+
+    border: 2px solid #3385ff;
 }
+
 
 
 
