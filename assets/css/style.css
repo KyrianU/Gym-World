@@ -314,7 +314,10 @@ footer {
 .class-container {
     
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
+    
      
 
 }
@@ -417,7 +420,44 @@ table , td , th{
     border: 2px solid #3385ff;
 }
 
+.form-section {
 
+    background: url('../images/pexels-ketut-subiyanto-4720309.jpg') no-repeat center center;
+    display: flex;
+    justify-content: center;
+    clear: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+#form-div {
+
+     color: #b3c6ff;
+     background-color: #809fff;
+     max-width: 400px;
+     padding: 30px;
+     
+}
+
+.text-input {
+
+    background: transparent;
+    width: 100%;
+    color: #fafafa;
+    height: 25px;
+    margin: 5px 0 10px 0px;
+    border: 2px solid #fafafa;
+    border-radius: 2px;
+}
+
+select {
+    height: 30px;
+    width: 100px;
+    border: 1px solid #b3c6ff;
+    
+}
 
 
  
