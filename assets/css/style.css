@@ -237,7 +237,7 @@ img {
     float: right;
     height: 650px;
     border-radius: 8px;
-    box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
+    
     text-align: center;
 }
 
@@ -249,7 +249,7 @@ img {
     float: left;
     height: 650px;
     border-radius: 8px;
-    box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
+    
     text-align: center;
     
 }
@@ -261,10 +261,14 @@ img {
     margin: 0 auto;
     height: 650px;
     border-radius: 8px;
-    box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
+    
     text-align: center;
     
     
+}
+
+ul {
+    list-style-type: none;
 }
 
 footer {
@@ -324,35 +328,35 @@ footer {
 
 
 .div-circuit {
-
-    background-color: #809fff;
+    
+    background-color: rgb(128, 159, 255, 0.5);
+    
     width: 32%;
     margin: 3px;
-    height: 300px;
+    height: 350px;
     border-radius: 8px;
-    box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
 }
 
 .div-strength {
 
-    background-color: #809fff;
+    background-color: rgb(128, 159, 255, 0.5);
+       
     width: 32%;
     margin: 3px;
-    height: 300px;
+    height: 350px;
     border-radius: 8px;
-    box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
 }
 
 .div-body-pump { 
-
-    background-color: #809fff;
+    
+    background-color: rgb(128, 159, 255, 0.5);
+    
     width: 32%;
     margin: 3px;
-    height: 300px;
+    height: 350px;
     border-radius: 8px;
-    box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
     
 
@@ -360,23 +364,21 @@ footer {
 
 .div-hiit {
 
-    background-color: #809fff;
+    background-color: rgb(128, 159, 255, 0.5);
     width: 32%;
     margin: 3px;
-    height: 300px;
+    height: 350px;
     border-radius: 8px;
-    box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
 }
 
 .div-cycle {
 
-    background-color: #809fff;
+    background-color: rgb(128, 159, 255, 0.5);
     width: 32%;
     margin: 3px;
-    height: 300px;
+    height: 350px;
     border-radius: 8px;
-    box-shadow: 6px 6px 3px 3px rgba(0, 0, 0, .5);
     text-align: center;
 
 }
@@ -422,23 +424,39 @@ table , td , th{
 
 .form-section {
 
+    
     background: url('../images/pexels-ketut-subiyanto-4720309.jpg') no-repeat center center;
+    background-size: cover;
+    height: 1000px;
     display: flex;
     justify-content: center;
-    clear: left;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    
+}
+
+.form-section  h2 {
+
+    color:#fff;
 }
 
 #form-div {
 
      color: #b3c6ff;
-     background-color: #809fff;
+     background-color: rgba(60, 60, 60, 0.5);
      max-width: 400px;
      padding: 30px;
-     
+     border: 1px solid #809fff;
+     border-radius: 5%;
+      
+      
+}
+
+option {
+    display: inline-block;
+    text-align: center;
 }
 
 .text-input {
@@ -459,6 +477,27 @@ select {
     
 }
 
+#dates {
+
+    display: flex;
+}
+
+.join-button {
+
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 110%;
+    background-color: #b3c6ff;
+
+}
+
+.join-button:hover {
+    background-color: #404040;
+    color: #b3c6ff;
+}
 
  
 
