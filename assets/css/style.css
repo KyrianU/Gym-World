@@ -532,6 +532,16 @@ select {
         left: 4%;
         padding: 30px 50px;
     }
+
+    #div-left, #div-middle, #div-right {
+
+        width: 95%;
+        margin: 10px;
+        display: inline-block;
+        
+    }
+
+   
 }
     
 
