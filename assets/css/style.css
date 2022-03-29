@@ -321,8 +321,7 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    
-     
+       
 
 }
 
@@ -330,7 +329,6 @@ footer {
 .div-circuit {
     
     background-color: rgb(128, 159, 255, 0.5);
-    
     width: 32%;
     margin: 3px;
     height: 350px;
@@ -340,8 +338,7 @@ footer {
 
 .div-strength {
 
-    background-color: rgb(128, 159, 255, 0.5);
-       
+    background-color: rgb(128, 159, 255, 0.5); 
     width: 32%;
     margin: 3px;
     height: 350px;
@@ -352,7 +349,6 @@ footer {
 .div-body-pump { 
     
     background-color: rgb(128, 159, 255, 0.5);
-    
     width: 32%;
     margin: 3px;
     height: 350px;
@@ -427,13 +423,9 @@ table , td , th{
     
     background: url('../images/pexels-ketut-subiyanto-4720309.jpg') no-repeat center center;
     background-size: cover;
+    background-position: center;
     height: 1000px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
+   
     
 }
 
@@ -450,6 +442,10 @@ table , td , th{
      padding: 30px;
      border: 1px solid #809fff;
      border-radius: 5%;
+     position: relative;
+     left: 10px;
+     top: 30px;
+     
       
       
 }
@@ -498,6 +494,46 @@ select {
     background-color: #404040;
     color: #b3c6ff;
 }
+
+@media screen and ( max-width: 1200px) {
+
+    #welcome {
+
+            padding: 30px 0;
+            margin-top: 0;
+    }
+}
+    
+
+
+@media screen and ( max-width: 950px) {
+
+    #menu {
+
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #text-box {
+
+        left: 0px;
+        bottom: 0px;
+    }
+}
+    
+
+@media screen and ( max-width: 600px) {
+
+    .form-section {
+
+        left: 4%;
+        padding: 30px 50px;
+    }
+}
+    
 
  
 
