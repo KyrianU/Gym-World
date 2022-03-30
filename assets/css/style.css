@@ -9,14 +9,7 @@
 header {
 
     height: 100px;
-    
 }
-
-nav {
-
-    display: block;
-}
-
 
 body {
     font-family: Roboto, sans-serif;
@@ -26,7 +19,7 @@ body {
 }
 
 
-    
+   /* Headings and logo */ 
 
 h1, h2 {
     font-family: Roboto, sans-serif;
@@ -38,7 +31,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 40px;
+    margin-left: 30px;
     text-shadow: 2px 2px 4px #3385ff;
     
     
@@ -46,15 +39,21 @@ h1, h2 {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+#menu, #logo {
+
+    line-height: 75px;
 }
 
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 30px;
+    margin: 0 30px;
 }
+
 
 #menu a:hover {
     border-bottom: 1px solid #3385ff;
@@ -71,6 +70,8 @@ h1, h2 {
     border-bottom: 1px solid #3385ff;
 }
 
+/* Main image and cover text */
+
 #hero-image-outer {
 
     height: 500px;
@@ -79,6 +80,8 @@ h1, h2 {
 
     position: relative;
 }
+
+/* Animates main picture with zoom effect on home page */
 
 #main-image {
     
@@ -153,6 +156,8 @@ hr {
 
     position: absolute;
 }
+
+/* About Gymworld */
 
 #welcome {
 
@@ -410,6 +415,7 @@ table {
     border-spacing: 2px;
     text-align: center;
     
+    
 }
 
 
@@ -504,6 +510,20 @@ select {
     color: #b3c6ff;
 }
 
+@media screen and ( max-width: 1400px) {
+
+    .div-circuit, .div-strength, .div-body-pump, .div-hiit, .div-cycle {
+
+        width: 31%;
+        margin: 10px;
+        display: inline-block;
+        height: 400px;
+    }
+
+}
+    
+
+
 @media screen and ( max-width: 1200px) {
 
     #welcome {
@@ -539,6 +559,8 @@ select {
         display: inline-block;
         height: 450px;
     }
+
+
 
 }
 
@@ -579,8 +601,30 @@ select {
         margin-right: 15%;
     }
 
+    table {
+
+        width: 50%;
+    }
+
    
 }
+
+@media screen and ( max-width: 400px) {
+
+    #menu {
+
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    
+
+}
+    
+
     
 
  
