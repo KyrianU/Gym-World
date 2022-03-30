@@ -418,6 +418,13 @@ table , td , th{
     border: 2px solid #3385ff;
 }
 
+.row  {
+    
+    text-align: right;
+    margin-right: 35%;
+    
+}
+
 .form-section {
 
     
@@ -439,6 +446,7 @@ table , td , th{
      color: #b3c6ff;
      background-color: rgba(60, 60, 60, 0.5);
      max-width: 400px;
+     height: 450px;
      padding: 30px;
      border: 1px solid #809fff;
      border-radius: 5%;
@@ -468,9 +476,9 @@ option {
 
 select {
     height: 30px;
-    width: 100px;
+    width: 110px;
     border: 1px solid #b3c6ff;
-    
+      
 }
 
 #dates {
@@ -480,13 +488,14 @@ select {
 
 .join-button {
 
-    margin-top: 10px;
+    
     border-radius: 3px;
     padding: 10px 20px 10px 20px;
     text-align: center;
     box-sizing: border-box;
     font-size: 110%;
     background-color: #b3c6ff;
+    
 
 }
 
@@ -519,10 +528,35 @@ select {
 
     #text-box {
 
-        left: 0px;
+        left: 50px;
         bottom: 0px;
     }
+
+    .div-circuit, .div-strength, .div-body-pump, .div-hiit, .div-cycle {
+
+        width: 70%;
+        margin: 10px;
+        display: inline-block;
+        height: 450px;
+    }
+
 }
+
+@media screen and ( max-width: 800px) {
+
+    .row{
+        margin-right: 25%;
+    }
+
+    .div-circuit, .div-strength, .div-body-pump, .div-hiit, .div-cycle {
+
+        width: 80%;
+        margin: 10px;
+        display: inline-block;
+    }
+}
+    
+
     
 
 @media screen and ( max-width: 600px) {
@@ -539,6 +573,10 @@ select {
         margin: 10px;
         display: inline-block;
         
+    }
+
+    .row {
+        margin-right: 15%;
     }
 
    
