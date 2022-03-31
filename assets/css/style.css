@@ -382,18 +382,22 @@ footer {
 
 table {
 
-    box-sizing: border-box;
-    border-spacing: 2px;
-    text-align: center;
-    
-    
+     border: 1px solid #3385ff;
+     margin: 0 auto;
+     margin-top: 40px;
+     background-color: rgba(102, 140, 255, .4);
+     width: 80%;
+     
+         
 }
 
 
 table , td , th{ 
 
-    border: 2px solid #3385ff;
+    border: 1px solid #3385ff;
 }
+
+
 
 .row  {
     
@@ -636,9 +640,27 @@ select {
     }
 
 
-.join-button {
+    .join-button {
 
-    margin: 2%;
+        margin: 2%;
+}
+
+table {
+
+    width: 80%;
+}
+
+.photos {
+
+    height: 350px;
+    width: 270px
+}
+
+.about-gymworld-box1 {
+
+    width: 50%;
+    right: 0;
+    justify-content: center;
 }
 
 
