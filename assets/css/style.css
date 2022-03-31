@@ -17,14 +17,15 @@ header {
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    color: #404040; 
+    color: #404040;
     background-color: #b3c6ff;
 }
 
 
-   /* Headings and logo */ 
+/* Headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -36,7 +37,7 @@ h1, h2 {
     font-size: 280%;
     margin-left: 30px;
     text-shadow: 2px 2px 4px #3385ff;
-      
+
 }
 
 /* Nav links section */
@@ -46,7 +47,8 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
 
     line-height: 75px;
 }
@@ -88,7 +90,7 @@ h1, h2 {
 /* Animates main picture with zoom effect on home page */
 
 #main-image {
-    
+
     height: 700px;
     width: 100%;
     background: url('../images/shutterstock_1902726667.jpg') no-repeat center center;
@@ -98,23 +100,25 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
-    
+
 
 @keyframes hero-image-zoom {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
-} 
+}
 
 
-#text-box, #text-box h2{
+#text-box,
+#text-box h2 {
 
     color: #fff;
     text-align: center;
-    
+
 }
 
 
@@ -127,8 +131,8 @@ h1, h2 {
     letter-spacing: 3px;
     bottom: 5%;
     left: 5%;
-    
-    
+
+
     position: absolute;
 }
 
@@ -138,12 +142,12 @@ h1, h2 {
 
     text-align: center;
     text-transform: uppercase;
-    
+
     font-size: 250%;
-	border-radius: 10px;
-	width: 100%;
-	margin: 0;
-	background-color: #809fff;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0;
+    background-color: #809fff;
     position: relative;
     left: 0;
     top: 0;
@@ -151,14 +155,14 @@ h1, h2 {
 
 /* About Gymworld section image */
 
-.photos  {
-    
+.photos {
+
     width: 400px;
     height: 400px;
-    padding: 30px ;
+    padding: 30px;
     border-width: 1px;
     margin: 0 auto;
-       
+
 }
 
 
@@ -166,7 +170,7 @@ h1, h2 {
     background: url('../images/pexels-andrea-piacquadio-903171.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
-    
+
 }
 
 #photos-circle2 {
@@ -177,7 +181,7 @@ h1, h2 {
 }
 
 #photos-circle3 {
-    
+
     background: url('../images/pexels-julia-larson-6455926.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
@@ -188,20 +192,14 @@ h1, h2 {
 .about-gymworld-box1 {
     text-align: center;
     padding: 10px 5px 25px 5px;
-	border-radius: 10px;
-	width: 66%;
-	margin: 2%;
-	background-color: #809fff;
+    border-radius: 10px;
+    width: 66%;
+    margin: 2%;
+    background-color: #809fff;
     position: relative;
     left: 15%;
     top: 30px;
 }
-
-.wrapped {
-
-    margin-top: 10%;
-}
-    
 
 img {
     border-radius: 8px;
@@ -232,7 +230,7 @@ img {
     border-radius: 8px;
     border: 2px solid #404040;
     text-align: center;
-    
+
 }
 
 #div-middle {
@@ -244,26 +242,25 @@ img {
     border-radius: 8px;
     border: 2px solid #404040;
     text-align: center;
-    
-    
+
 }
 
 ul {
     list-style-type: none;
 }
 
-/* Meet the team section */ 
+/* Meet the team section */
 
 #about-team {
 
     text-align: center;
     text-transform: uppercase;
-    
+
     font-size: 150%;
-	border-radius: 10px;
-	width: 100%;
-	margin: 0;
-	background-color: #809fff;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0;
+    background-color: #809fff;
     position: relative;
     left: 0;
     top: 0;
@@ -273,11 +270,11 @@ ul {
 
 footer {
     height: 150px;
-          
+
 }
 
 .icon:hover {
-     
+
     color: white;
 }
 
@@ -285,7 +282,7 @@ footer {
     text-align: center;
 }
 
-.socials > li{
+.socials>li {
     display: inline;
 }
 
@@ -303,12 +300,10 @@ footer {
     height: auto;
     width: 100%;
     text-align: center;
-    
+
 }
 
-
-
-#fitness-header > h2 {
+#fitness-header>h2 {
     background-color: #809fff;
     color: #404040;
     margin: auto 0;
@@ -317,17 +312,16 @@ footer {
 }
 
 .class-container {
-    
+
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-       
+
 }
 
-
 .div-circuit {
-    
+
     background-color: rgb(128, 159, 255, 0.5);
     width: 32%;
     margin: 3px;
@@ -338,7 +332,7 @@ footer {
 
 .div-strength {
 
-    background-color: rgb(128, 159, 255, 0.5); 
+    background-color: rgb(128, 159, 255, 0.5);
     width: 32%;
     margin: 3px;
     height: 350px;
@@ -346,15 +340,15 @@ footer {
     text-align: center;
 }
 
-.div-body-pump { 
-    
+.div-body-pump {
+
     background-color: rgb(128, 159, 255, 0.5);
     width: 32%;
     margin: 3px;
     height: 350px;
     border-radius: 8px;
     text-align: center;
-    
+
 }
 
 .div-hiit {
@@ -386,18 +380,14 @@ footer {
     width: 100%;
 }
 
-
-#table-header > h2 {
+#table-header>h2 {
     background-color: #809fff;
     color: #404040;
     margin: auto 0;
     text-align: center;
     padding: 30px 0;
-    
+
 }
-
-
-
 
 #class-times div {
     color: #404040;
@@ -409,16 +399,16 @@ footer {
     text-align: center;
     border: 3px solid #404040;
     box-sizing: border-box;
-    
+
 }
 
 /* Sign up form section */
 
-.row  {
-    
+.row {
+
     text-align: right;
     margin-right: 35%;
-    
+
 }
 
 
@@ -428,27 +418,27 @@ footer {
     background-size: cover;
     background-position: center;
     height: 1000px;
-    
+
 }
 
-.form-section  h2 {
+.form-section h2 {
 
-    color:#fff;
+    color: #fff;
 }
 
 #form-div {
 
-     color: #b3c6ff;
-     background-color: rgba(60, 60, 60, 0.5);
-     max-width: 400px;
-     height: 450px;
-     padding: 30px;
-     border: 1px solid #809fff;
-     border-radius: 5%;
-     position: relative;
-     left: 10px;
-     top: 30px;
-       
+    color: #b3c6ff;
+    background-color: rgba(60, 60, 60, 0.5);
+    max-width: 400px;
+    height: 450px;
+    padding: 30px;
+    border: 1px solid #809fff;
+    border-radius: 5%;
+    position: relative;
+    left: 10px;
+    top: 30px;
+
 }
 
 option {
@@ -460,7 +450,7 @@ option {
 
     background: transparent;
     width: 100%;
-    color: #fafafa;
+    color: #fff;
     height: 25px;
     margin: 5px 0 10px 0px;
     border: 2px solid #fafafa;
@@ -471,18 +461,18 @@ select {
     height: 30px;
     width: 110px;
     border: 1px solid #b3c6ff;
-      
+
 }
 
 
 .join-button {
- 
+
     border-radius: 3px;
     padding: 10px 20px 10px 20px;
     text-align: center;
     box-sizing: border-box;
     font-size: 110%;
-    background-color: #b3c6ff;  
+    background-color: #b3c6ff;
 
 }
 
@@ -493,9 +483,13 @@ select {
 
 /* Media Queries */
 
-@media screen and ( max-width: 1600px) {
+@media screen and (max-width: 1600px) {
 
-    .div-circuit, .div-strength, .div-body-pump, .div-hiit, .div-cycle {
+    .div-circuit,
+    .div-strength,
+    .div-body-pump,
+    .div-hiit,
+    .div-cycle {
 
         width: 31%;
         margin: 10px;
@@ -504,44 +498,46 @@ select {
     }
 
 
-#text-box {
-    font-size: 120%;
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    #text-box {
+        font-size: 120%;
+        font-family: Montserrat, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
 
-    width: 400px;
-    height: 200px;
+        width: 400px;
+        height: 200px;
 
-    padding-top: 5%;
-    margin-right: 5%;
-    background-color: rgb(128, 159, 255, 0.5);
-    position: absolute;
+        padding-top: 5%;
+        margin-right: 5%;
+        background-color: rgb(128, 159, 255, 0.5);
+        position: absolute;
+    }
+
+
 }
 
 
-}
-    
 
+@media screen and (max-width: 1200px) {
 
-@media screen and ( max-width: 1200px) {
-
+    /* About Gymworld */
     #welcome {
 
-            padding: 30px 0;
-            margin-top: 0;
+        padding: 30px 0;
+        margin-top: 0;
     }
 }
-    
 
 
-@media screen and ( max-width: 950px) {
 
+@media screen and (max-width: 950px) {
+
+    /* Header - Nav bar */
     #menu {
 
         clear: left;
         float: left;
-        margin-left: 30px; 
+        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -552,7 +548,13 @@ select {
         bottom: 0px;
     }
 
-    .div-circuit, .div-strength, .div-body-pump, .div-hiit, .div-cycle {
+    /* Fitness class section */
+
+    .div-circuit,
+    .div-strength,
+    .div-body-pump,
+    .div-hiit,
+    .div-cycle {
 
         width: 70%;
         margin: 10px;
@@ -563,18 +565,28 @@ select {
 
 }
 
-@media screen and ( max-width: 800px) {
+@media screen and (max-width: 800px) {
 
-    .row{
-        margin-right: 25%;
-    }
+    /* Fitness class section */
 
-    .div-circuit, .div-strength, .div-body-pump, .div-hiit, .div-cycle {
+    .div-circuit,
+    .div-strength,
+    .div-body-pump,
+    .div-hiit,
+    .div-cycle {
 
         width: 80%;
         margin: 10px;
         display: inline-block;
     }
+
+    /* Sign up form section */
+
+    .row {
+        margin-right: 25%;
+    }
+
+    /* Class schedule section */
 
     #class-times div {
         width: 100%;
@@ -583,17 +595,35 @@ select {
         padding: 0;
     }
 }
-    
 
-    
 
-@media screen and ( max-width: 600px) {
 
+@media screen and (max-width: 600px) {
+
+    /* About Gymworld section */
 
     .about-gymworld-box1 {
 
         display: flex;
         flex-direction: column;
+    }
+
+    /* Meet the team section */
+
+    #div-left,
+    #div-middle,
+    #div-right {
+
+        width: 95%;
+        margin: 10px;
+        display: inline-block;
+
+    }
+
+    /* Sign up form section */
+
+    .row {
+        margin-right: 15%;
     }
 
     .form-section {
@@ -602,92 +632,54 @@ select {
         padding: 30px 50px;
     }
 
-    #div-left, #div-middle, #div-right {
-
-        width: 95%;
-        margin: 10px;
-        display: inline-block;
-        
-    }
-
-    .row {
-        margin-right: 15%;
-    }
-
-
 }
 
-@media screen and ( max-width: 500px) {
+@media screen and (max-width: 500px) {
+
+    /* Nav bar section */
 
     #menu {
- 
+
         font-size: 45%;
         letter-spacing: 2px;
-        
+
     }
 
+    /* Header section */
 
     #text-box {
 
         display: none;
     }
 
+    /* Abou gym world section */
+
+    .about-gymworld-box1 {
+
+        width: 50%;
+        margin: 10%;
+        justify-content: center;
+    }
+
+    .photos {
+
+        height: 350px;
+        width: 270px
+    }
+
+    /* Sign up form section */
+
     #form-div {
 
         height: 650px;
         padding: 25px;
         margin-right: 11%;
-        
-    }
 
+    }
 
     .join-button {
 
         margin: 2%;
-}
-
-
-.photos {
-
-    height: 350px;
-    width: 270px
-}
-
-.about-gymworld-box1 {
-
-    width: 50%;
-    margin: 10%;
-    justify-content: center;
-}
-
+    }
 
 }
-    
-
-    
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
