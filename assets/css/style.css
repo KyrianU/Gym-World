@@ -218,7 +218,7 @@ img {
     float: right;
     height: 650px;
     border-radius: 8px;
-    
+    border: 2px solid #404040;
     text-align: center;
 }
 
@@ -230,7 +230,7 @@ img {
     float: left;
     height: 650px;
     border-radius: 8px;
-    
+    border: 2px solid #404040;
     text-align: center;
     
 }
@@ -242,7 +242,7 @@ img {
     margin: 0 auto;
     height: 650px;
     border-radius: 8px;
-    
+    border: 2px solid #404040;
     text-align: center;
     
     
@@ -259,7 +259,7 @@ ul {
     text-align: center;
     text-transform: uppercase;
     
-    font-size: 250%;
+    font-size: 150%;
 	border-radius: 10px;
 	width: 100%;
 	margin: 0;
@@ -421,9 +421,10 @@ footer {
     
 }
 
+
 .form-section {
 
-    background: url('../images/pexels-ketut-subiyanto-4720309.jpg') no-repeat center center;
+    background: url('../images/pexels-ketut-subiyanto-4720309.jpg')no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 1000px;
@@ -658,6 +659,7 @@ select {
     margin: 10%;
     justify-content: center;
 }
+
 
 }
     

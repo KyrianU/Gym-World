@@ -2,7 +2,7 @@
 
 Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for people who are new to lightly experienced in fitness, looking for a new gym location. The site also shows the users some information regarding the different classes, availability of the classes and sign up page.
 
-# Usex Experience
+# User Experience
 ## User Stories
 ### First time visitor goals 
 * As a first time visitor, I want to be able to understand the main purpose of the site and also be able to easily navigate to the different sections of the site to see what Gymworld has to offer.
@@ -19,7 +19,7 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 
 # Design 
 # Colors 
-- The main colors used throughout the site is light blue and light grey
+- The main colors used throughout the site is light blue
 # Font 
 - The Roboto and Montserrat are the main font used throughout the website, with Sans-serif to fall back on. Roboto and Montserrat are clean and very clear fonts which makes it easy for users to read.
 
@@ -28,12 +28,9 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 * The 3 navigation links (Home, Classes, Sign UP) are located on the top right hand side of the website. User will then be able to navigate from pages to pages easily. 
 * Responsive on all devices
 
-
-
 # Header 
 * Main landing image included in the header a showing a man and human taking part in a workout
 * In the middle of the landing image includes a text box with Gymworld's motto.
-
 
 # Home
 * The home page where, thanks to a large main image, will make the user be aware that this a gympage.
@@ -53,8 +50,8 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 * This section displays the 5 classes gym offers. Spin class, Circuit class, Hiit class, Strength class and Cycle(spin) class.
 * Each classes box contains short explanation followed by the class image to help users understand what the excercise/workouts are about. 
 
-#Timetable 
+# Timetable 
 
 * This sections provides users with day, time, class and duration.
 
-
+# Testing 
