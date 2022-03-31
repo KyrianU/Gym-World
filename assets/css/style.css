@@ -8,7 +8,7 @@
 
 header {
 
-    height: 75px;
+    height: 100px;
 }
 
 body {
@@ -105,53 +105,26 @@ h1, h2 {
     }
 } 
 
+
 #text-box, #text-box h2{
 
     color: #fff;
     text-align: center;
-}
-
-#text-box-where-everybody-is-welcome {
-    font-family: Roboto, sans-serif;
-    color:#809fff;
-    padding: 5px;
-}
-
-#text-box-reach-your-goals {
-    font-family: Roboto, sans-serif;
-    color: #fff;
     
-    
-}
-
-#text-box-get-training {
-
-    font-family: Roboto, sans-serif;
-    color:#809fff;
-         
-}
-
-hr {
-    margin: 10px;
 }
 
 
 #text-box {
     font-size: 120%;
     font-family: Montserrat, sans-serif;
+    background: rgba(163, 163, 194 0.5);
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 3px;
-
-   
-
-    
-
-    background-color: rgb(204, 220, 255);
-
     bottom: 5%;
     left: 5%;
     
-
+    
     position: absolute;
 }
 
@@ -436,6 +409,7 @@ table , td , th{
     background-size: cover;
     background-position: center;
     height: 1000px;
+    
    
     
 }
@@ -528,10 +502,10 @@ select {
     width: 400px;
     height: 200px;
 
-    padding-top: 50px;
+    padding-top: 5%;
     margin-right: 5%;
 
-    background-color: rgba(204, 224, 255, .3);
+    background-color: rgb(128, 159, 255, 0.5);
 
     
     
@@ -604,6 +578,13 @@ select {
 
 @media screen and ( max-width: 600px) {
 
+
+    .about-gymworld-box1 {
+
+        display: flex;
+        flex-direction: column;
+    }
+
     .form-section {
 
         left: 4%;
@@ -630,18 +611,35 @@ select {
    
 }
 
-@media screen and ( max-width: 400px) {
+@media screen and ( max-width: 500px) {
 
     #menu {
 
-        clear: left;
-        float: left;
-        margin-left: 30px; 
-        margin-bottom: 20px;
-        line-height: 25px;
+        
+        font-size: 45%;
+        letter-spacing: 2px;
+        
     }
 
 
+    #text-box {
+
+        display: none;
+    }
+
+    #form-div {
+
+        height: 640px;
+        padding: 5px;
+        
+    
+    }
+
+
+.join-button {
+
+    margin: 2%;
+}
 
 
 

@@ -33,4 +33,8 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 # Header 
 * Main landing image included in the header a showing a man and human taking part in a workout
 * In the middle of the landing image includes a text box with Gymworld's motto.
-* 
+
+
+# Home
+* The home page where, thanks to a large main image, will make the user be aware that this a gympage
+
