@@ -6,6 +6,8 @@
     border: none;
 }
 
+/* Header section */
+
 header {
 
     height: 100px;
@@ -34,9 +36,10 @@ h1, h2 {
     font-size: 280%;
     margin-left: 30px;
     text-shadow: 2px 2px 4px #3385ff;
-    
-    
+      
 }
+
+/* Nav links section */
 
 #menu {
     font-size: 110%;
@@ -118,7 +121,7 @@ h1, h2 {
 #text-box {
     font-size: 120%;
     font-family: Montserrat, sans-serif;
-    background: rgba(163, 163, 194 0.5);
+    background: rgba(163, 163, 194, 0.5);
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
@@ -129,7 +132,7 @@ h1, h2 {
     position: absolute;
 }
 
-/* About Gymworld */
+/* About Gymworld section */
 
 #welcome {
 
@@ -145,6 +148,8 @@ h1, h2 {
     left: 0;
     top: 0;
 }
+
+/* About Gymworld section image */
 
 .photos  {
     
@@ -178,7 +183,7 @@ h1, h2 {
     border-radius: 50%;
 }
 
-
+/* Meet the team section */
 
 .about-gymworld-box1 {
     text-align: center;
@@ -196,8 +201,7 @@ h1, h2 {
 
     margin-top: 10%;
 }
-      
-
+    
 
 img {
     border-radius: 8px;
@@ -248,6 +252,25 @@ ul {
     list-style-type: none;
 }
 
+/* Meet the team section */ 
+
+#about-team {
+
+    text-align: center;
+    text-transform: uppercase;
+    
+    font-size: 250%;
+	border-radius: 10px;
+	width: 100%;
+	margin: 0;
+	background-color: #809fff;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+/* Footer Section */
+
 footer {
     height: 150px;
           
@@ -272,6 +295,8 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* Gym classes and respesctive images */
 
 #class-heading {
 
@@ -298,7 +323,6 @@ footer {
     width: 100%;
     justify-content: center;
        
-
 }
 
 
@@ -331,7 +355,6 @@ footer {
     border-radius: 8px;
     text-align: center;
     
-
 }
 
 .div-hiit {
@@ -355,13 +378,12 @@ footer {
 
 }
 
-
+/* Timetable section */
 
 #timetable-heading {
 
     height: 100%;
     width: 100%;
-
 }
 
 
@@ -377,7 +399,7 @@ footer {
 
 
 
-#times div {
+#class-times div {
     color: #404040;
     background-color: rgba(128, 159, 255, .6);
     width: 33.12%;
@@ -390,10 +412,7 @@ footer {
     
 }
 
-
-
-
-
+/* Sign up form section */
 
 .row  {
     
@@ -404,13 +423,10 @@ footer {
 
 .form-section {
 
-    
     background: url('../images/pexels-ketut-subiyanto-4720309.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 1000px;
-    
-   
     
 }
 
@@ -431,9 +447,7 @@ footer {
      position: relative;
      left: 10px;
      top: 30px;
-     
-      
-      
+       
 }
 
 option {
@@ -459,21 +473,15 @@ select {
       
 }
 
-#dates {
-
-    display: flex;
-}
 
 .join-button {
-
-    
+ 
     border-radius: 3px;
     padding: 10px 20px 10px 20px;
     text-align: center;
     box-sizing: border-box;
     font-size: 110%;
-    background-color: #b3c6ff;
-    
+    background-color: #b3c6ff;  
 
 }
 
@@ -481,6 +489,8 @@ select {
     background-color: #404040;
     color: #b3c6ff;
 }
+
+/* Media Queries */
 
 @media screen and ( max-width: 1600px) {
 
@@ -504,15 +514,9 @@ select {
 
     padding-top: 5%;
     margin-right: 5%;
-
     background-color: rgb(128, 159, 255, 0.5);
-
-    
-    
-
     position: absolute;
 }
-
 
 
 }
@@ -556,7 +560,6 @@ select {
     }
 
 
-
 }
 
 @media screen and ( max-width: 800px) {
@@ -572,7 +575,7 @@ select {
         display: inline-block;
     }
 
-    #times div {
+    #class-times div {
         width: 100%;
         clear: both;
         height: 130px;
@@ -610,19 +613,13 @@ select {
         margin-right: 15%;
     }
 
-    table {
 
-        width: 50%;
-    }
-
-   
 }
 
 @media screen and ( max-width: 500px) {
 
     #menu {
-
-        
+ 
         font-size: 45%;
         letter-spacing: 2px;
         
@@ -636,10 +633,10 @@ select {
 
     #form-div {
 
-        height: 640px;
-        padding: 5px;
+        height: 650px;
+        padding: 25px;
+        margin-right: 11%;
         
-    
     }
 
 
@@ -648,10 +645,6 @@ select {
         margin: 2%;
 }
 
-table {
-
-    width: 80%;
-}
 
 .photos {
 
@@ -665,8 +658,6 @@ table {
     margin: 10%;
     justify-content: center;
 }
-
-
 
 }
     
