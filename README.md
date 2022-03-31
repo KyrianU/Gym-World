@@ -13,7 +13,7 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 * I want to be able easily find the links the the social media pages
 * I want to find out about the different workout classes Gymworld offers
 
-# Frequent Visitor 
+### Frequent Visitor 
 * As a frequent visitor, I would like to be able to to access the website on different devices (phones & tablets)
 * As a frequent visitor, I would like to know if the class times have stayed the same or perhaps have changed.
 
@@ -36,5 +36,10 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 
 
 # Home
-* The home page where, thanks to a large main image, will make the user be aware that this a gympage
+* The home page where, thanks to a large main image, will make the user be aware that this a gympage.
+* This section introduces the user with an eye catching image animation to draw their attention.
+
+# Why Gymworld
+* This section contains 3 sub-sections explaining what Gymworld is about and what is being offered.
+* 
 
