@@ -41,5 +41,20 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 
 # Why Gymworld
 * This section contains 3 sub-sections explaining what Gymworld is about and what is being offered.
-* 
+* The aim of the sub section is encourage the engage with the rest of the content on the webpage and perhaps think about sign up for classes
+
+# Footer
+* The footer section contains links to Gymworld's main social media accounts. The links will open in a new tab to allow a better experience for the user to navigate.
+* The footer is designed for the user to stay connected with Gymworld via Twitter, Instagram and Facebook.
+* News & Update will be posted on the social media accounts
+* When the user scrolls/hover the social media icons, the colors change to white to hightlight the icons
+
+# Fitness class Page 
+* This section displays the 5 classes gym offers. Spin class, Circuit class, Hiit class, Strength class and Cycle(spin) class.
+* Each classes box contains short explanation followed by the class image to help users understand what the excercise/workouts are about. 
+
+#Timetable 
+
+* This sections provides users with day, time, class and duration.
+
 
