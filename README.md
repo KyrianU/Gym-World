@@ -76,6 +76,7 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 
 * Contact page features a Main image with a sign up form inside the image. Users can sign up by filling their full name, email address and pick which class they would like to attend.
 
+<img width="1273" alt="Contact page screenshot" src="https://user-images.githubusercontent.com/98747053/161207601-f46f511f-e103-42bc-a733-149157b9bf06.png">
 
 #Lighthouse Report 
 
