@@ -511,10 +511,8 @@ select {
         font-family: Montserrat, sans-serif;
         text-transform: uppercase;
         letter-spacing: 3px;
-
         width: 400px;
         height: 200px;
-
         padding-top: 5%;
         margin-right: 5%;
         background-color: rgb(128, 159, 255, 0.5);

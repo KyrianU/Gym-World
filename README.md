@@ -15,12 +15,12 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 * I want to find out about the different workout classes Gymworld offers
 
 ##### Frequent Visitor 
-* As a frequent visitor, I would like to be able to to access the website on different devices (phones & tablets)
+* As a frequent visitor, I would like to be able to to access the website on different devices (phones & tablets and big desktop screens)
 * As a frequent visitor, I would like to know if the class times have stayed the same or perhaps have changed.
 
 # Features left to implement 
 * Image slideshow to replace Home page main image in the future (I attempted to do it originally but found it difficult to implement it at this stage.)
-* Video tour of the Gym enviroment 
+* Video tour of the Gym.
 
 # Design 
 
@@ -69,7 +69,7 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 # Timetable 
 
 * This sections provides information to users regarding classes timetables. 
-* Decided to the table blue, consistent with the rest of the site.
+* Decided to keep the table blue, consistent with the rest of the site.
 
 <img width="1273" alt="Timetable-screenshot" src="https://user-images.githubusercontent.com/98747053/161205261-2d9ce958-eb5a-429b-8d27-fa9766ddd6d1.png">
 
@@ -143,5 +143,6 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
  * [Font awesome] (https://fontawesome.com/) The icons you see on the site were taken from Font Awesome
  * [Pexels](https://www.pexels.com/) [Shuttershock] (https://www.shutterstock.com/)  All images for this project were sourced from Pexels and Shuttershock
  * [Googlefonts] (https://fonts.google.com/) - Where the Roboto and Montserrat font were taking from. 
+ * [Amiresponsive](http://ami.responsivedesign.is/) To check how responsive the site is on all devices
  
  
