@@ -201,6 +201,17 @@ h2 {
 
 /* Meet the team section */
 
+#about-team {
+
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-radius: 10px;
+    width: 40%;  
+    background-color: #809fff;
+    right: 15%;
+    
+}
+
 img {
     border-radius: 8px;
     width: 75%;
