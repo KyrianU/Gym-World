@@ -117,6 +117,12 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 
  Gymworld website was built using only HTML5 and CSS3
 
+ # Wireframes
+
+<img width="1249" alt="Home screen wireframe" src="https://user-images.githubusercontent.com/98747053/161223566-d41e0488-5edc-4c49-baba-567647445cd6.png">
+
+<img width="1247" alt="Screenshot 2022-04-01 at 09 19 24" src="https://user-images.githubusercontent.com/98747053/161224408-e142f92b-aed3-44c6-b431-f2ea3b2cf0d5.png">
+
  # Deployments
 
  ## Credits
