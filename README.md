@@ -112,6 +112,7 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 
  ## Unfixed bugs
  * The required attribute on the select element in the contact page means that, the user has to select every gym classes and time schedule before being able to sign up for classes. 
+ * Horizontal scroll appeared on the home page at a max-width 400px
 
  # Languages Used
 
@@ -125,11 +126,22 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 
  # Deployments
 
+ * The website was deployed on Github Pages
+ * On the Project repository, go to settings
+ * Scroll down untill the Page link appears - click it
+ * Under Source, click on the drop down button "None" then click main
+ * Click save, the following message will appear: Your site is ready to be published
+ * After a few minutes, the site will be published with a new message saying - Your site is published.
+
+ * Access to the live link here [Gymworld](https://kyrianu.github.io/Gym-World/)
+
+
  ## Credits
 
- * Gymworld was influenced by the Love Runnin challenge and the porfolio 1 website (Coders Coffeehouse). I have tried to steer away from those sites and make my project my own, some of the codes share the same similarities. 
+ * Gymworld was influenced by the Love Running challenge and the porfolio 1 website (Coders Coffeehouse). Even though I have tried to steer away from those sites and make my project my own, some of the codes share the same similarities. 
  * [w3schools] (https://www.w3schools.com/) for constant help and extra learning content to make my project work. 
  * [Font awesome] (https://fontawesome.com/) The icons you see on the site were taken from Font Awesome
  * [Pexels](https://www.pexels.com/) [Shuttershock] (https://www.shutterstock.com/)  All images for this project were sourced from Pexels and Shuttershock
  * [Googlefonts] (https://fonts.google.com/) - Where the Roboto and Montserrat font were taking from. 
+ 
  
