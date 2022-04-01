@@ -32,7 +32,8 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 # Navigation 
 * Gymworld (name of the Website) is on placed on the top left hand side of the page 
 * The 3 navigation links (Home, Classes, Sign UP) are located on the top right hand side of the website. User will then be able to navigate from pages to pages easily. 
-* Responsive on all devices
+* For smaller resolutions screens, the navigation bar is responsive and displays under the company name. 
+* For easier navigation experiences, the nav links are highlighted in a darker shade of blue.
 
 <img width="1260" alt="Nav-Bar" src="https://user-images.githubusercontent.com/98747053/161203308-3e31dbd2-d85d-472f-bea7-4f276a7f3e54.png">
 
