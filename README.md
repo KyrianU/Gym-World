@@ -56,6 +56,10 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 
 * This sections provides users with day, time, class and duration.
 
+# Contact Page 
+
+* Contact page features a Main image with a sign up form inside the image. Users can sign up by filling their full name, email address and pick which class they would like to attend.
+
 # Testing 
 * I have performed a considerable amount of testing to ensure the site is fully responsive on all screen sizes.
 * The navigation links on all 3 pages, Home, Class and Contact had no issues at all.
@@ -73,6 +77,10 @@ Navigation Testing
  | Instagram Link| Redirected to Instragram in new tab | Click Instagram icon | User redirected to new tab| Pass|
  | Twitter Link | Redirected to Twitter in new tab | Click Twitter icon | User redirected to twitter in new tab| Pass|
 
+# W3C Validator Testing 
+
+* All 3 HMTL file (index, classes and contact) And CSS were ran through (https://validator.w3.org/nu/#textarea) and (https://jigsaw.w3.org/css-validator/validator) respectively to ensure all codes meet the standards. All files came back with no errors.
+
 
  # Bugs
  * During testing, The W3C validator flagged that the atrribute "optional" does not allowed on the element select
@@ -84,6 +92,8 @@ Navigation Testing
  ## Languages Used
 
  Gymworld website was built using only HTML5 and CSS3
+
+ ## Deployments
 
  ## Credits
 
