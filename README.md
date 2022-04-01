@@ -57,3 +57,18 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 * This sections provides users with day, time, class and duration.
 
 # Testing 
+* I have performed a considerable amount of testing to ensure the site is fully responsive on all screen sizes.
+* The navigation links on all 3 pages, Home, Class and Contact had no issues at all.
+* The Sign up Form in the contact page responds well to small, medium and large screen resolutions. 
+
+Navigation Testing 
+
+ |Feature  |  Expectation  | Testing  | Outcome | Pass\Fail |
+  | ------- | ------------- |  -------| -------- |-----------|
+ | Home Button | Redirect to home page | Click the home page | Takes user back to home page | Pass|
+ | Nav links | To be redirected to relevant pages | Redirected to relevant pages | redirected to relevant pages| Pass|
+ | Click Classes link | Redirected to the Class page| Click classes link | User redirected to classes link | Pass|
+ | Click Contact link | Redirected to Contact page | Click Contact Page | User redirected to Contact Page| Pass |
+ | Facebook Link | Redirected to Facebook in new tab| Click Facebook icon | User redirected to new tab | Pass|
+ | Instagram Link| Redirected to Instragram in new tab | Click Instagram icon | User redirected to new tab| Pass|
+ | Twitter Link | Redirected to Twitter in new tab | Click Twitter icon | User redirected to twitter in new tab| Pass|
