@@ -44,6 +44,8 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 * The home page where, thanks to a large main image, will make the user be aware that this a gympage.
 * This section introduces the user with an eye catching image animation to draw their attention.
 
+<img width="1273" alt="Homepage" src="https://user-images.githubusercontent.com/98747053/161203693-fedc256c-655b-4b5d-a8c3-fdaafad70b0a.png">
+
 # Why Gymworld
 * This section contains 3 sub-sections explaining what Gymworld is about and what is being offered.
 * The aim of the sub section is encourage the engage with the rest of the content on the webpage and perhaps think about sign up for classes
@@ -54,13 +56,21 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 * News & Update will be posted on the social media accounts
 * When the user scrolls/hover the social media icons, the colors change to white to hightlight the icons
 
+<img width="696" alt="Footer" src="https://user-images.githubusercontent.com/98747053/161204589-18080fc7-e8d9-4231-821b-1695d0b47b7b.png">
+
+
 # Fitness class Page 
 * This section displays the 5 classes gym offers. Spin class, Circuit class, Hiit class, Strength class and Cycle(spin) class.
 * Each classes box contains short explanation followed by the class image to help users understand what the excercise/workouts are about. 
 
+<img width="1273" alt="Fitness class" src="https://user-images.githubusercontent.com/98747053/161204848-f205a6c9-2579-4f53-aebc-faeed1ac674e.png">
+
 # Timetable 
 
-* This sections provides users with day, time, class and duration.
+* This sections provides information to users regarding classes timetables. 
+* Decided to the table blue, consistent with the rest of the site.
+
+<img width="1273" alt="Timetable-screenshot" src="https://user-images.githubusercontent.com/98747053/161205261-2d9ce958-eb5a-429b-8d27-fa9766ddd6d1.png">
 
 # Contact Page 
 
