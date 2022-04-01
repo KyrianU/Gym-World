@@ -1,5 +1,5 @@
 # Gymworld 
-
+<img width="909" alt="Am I responsive - screenshot" src="https://user-images.githubusercontent.com/98747053/161203054-3db715ce-1c0c-46c2-8ef0-8b82fab0455a.png">
 
 Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for people who are new to lightly experienced in fitness, looking for a new gym location. The site also shows the users some information regarding the different classes, availability of the classes and sign up page.
 
@@ -18,6 +18,10 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 * As a frequent visitor, I would like to be able to to access the website on different devices (phones & tablets)
 * As a frequent visitor, I would like to know if the class times have stayed the same or perhaps have changed.
 
+# Features left to implement 
+* Image slideshow to replace Home page main image in the future (I attempted to do it originally but found it difficult to implement it at this stage.)
+* Video tour of the Gym enviroment 
+
 # Design 
 
 ## Colors 
@@ -30,6 +34,7 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 * The 3 navigation links (Home, Classes, Sign UP) are located on the top right hand side of the website. User will then be able to navigate from pages to pages easily. 
 * Responsive on all devices
 
+<img width="1260" alt="Nav-Bar" src="https://user-images.githubusercontent.com/98747053/161203308-3e31dbd2-d85d-472f-bea7-4f276a7f3e54.png">
 
 # Header 
 * Main landing image included in the header a showing a man and human taking part in a workout
@@ -89,7 +94,7 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
  * Lighthouse flagged that the image file sizes was causing issues to the perfomance of the site. Advised to compress the images files.
 
  ## Unfixed bugs
- * The required attribute on the select element in the contact page means that, the user has to select every gym class and time schedule before being able to sign up for classes. 
+ * The required attribute on the select element in the contact page means that, the user has to select every gym classes and time schedule before being able to sign up for classes. 
 
  # Languages Used
 
