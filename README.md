@@ -93,7 +93,7 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 
  |Feature  |  Expectation  | Testing  | Outcome | Pass\Fail |
   | ------- | ------------- |  -------| -------- |-----------|
- | Home Button | Redirect to home page | Click the home page | Takes user back to home page | Pass|
+ | Home Link | Redirect to home page | Click the home page | Takes user back to home page | Pass|
  | Nav links | To be redirected to relevant pages | Redirected to relevant pages | redirected to relevant pages| Pass|
  | Click Classes link | Redirected to the Class page| Click classes link | User redirected to classes link | Pass|
  | Click Contact link | Redirected to Contact page | Click Contact Page | User redirected to Contact Page| Pass |
