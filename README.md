@@ -72,3 +72,24 @@ Navigation Testing
  | Facebook Link | Redirected to Facebook in new tab| Click Facebook icon | User redirected to new tab | Pass|
  | Instagram Link| Redirected to Instragram in new tab | Click Instagram icon | User redirected to new tab| Pass|
  | Twitter Link | Redirected to Twitter in new tab | Click Twitter icon | User redirected to twitter in new tab| Pass|
+
+
+ # Bugs
+ * During testing, The W3C validator flagged that the atrribute "optional" does not allowed on the element select
+ * Lighthouse flagged that the image file sizes was causing issues to the perfomance of the site. Advised to compress the images files.
+
+ ## Unfixed bugs
+ * The required attribute on the select element in the contact page means that, the user has to select every gym class and time schedule before being able to sign up for classes. 
+
+ ## Languages Used
+
+ Gymworld website was built using only HTML5 and CSS3
+
+ ## Credits
+
+ * Gymworld was influenced by the Love Runnin challenge and the porfolio 1 website (Coders Coffeehouse). I have tried to steer away from those sites and make my project my own, some of the codes share the same similarities. 
+ * W3C for constant help and extra learning content to make my project work. 
+ * [Font awesome] (https://fontawesome.com/) The icons you see on the site were taken from Font Awesome
+ * [Pexels](https://www.pexels.com/) [Shuttershock] (https://www.shutterstock.com/)  All images for this project were sourced from Pexels and Shuttershock
+ * [Googlefonts] (https://fonts.google.com/) - Where the Roboto and Montserrat font were taking from. 
+ 
