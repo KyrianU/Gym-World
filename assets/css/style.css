@@ -17,7 +17,7 @@ header {
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    color: #fafafa;
+    color: #404040;
     background-color: #b3c6ff;
 }
 
@@ -142,8 +142,7 @@ h2 {
 
     text-align: center;
     text-transform: uppercase;
-
-    font-size: 150%;
+    font-size: 210%;
     border-radius: 10px;
     width: 100%;
     margin: 0;
@@ -412,7 +411,7 @@ footer {
 
 .form-section {
 
-    background: url('../images/pexels-ketut-subiyanto-4720309.jpg')no-repeat center center;
+    background: url('../images/pexels-ketut-subiyanto-4720309.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 1000px;
@@ -613,7 +612,7 @@ select {
     #div-right {
 
         width: 93%;
-        margin: 20px;
+        margin: 12px;
         display: inline-table;
 
     }
