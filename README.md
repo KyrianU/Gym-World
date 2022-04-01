@@ -77,6 +77,11 @@ Gymworld is a Didcot, South Oxfordshire based gym. The site is targeted for peop
 * Contact page features a Main image with a sign up form inside the image. Users can sign up by filling their full name, email address and pick which class they would like to attend.
 
 
+#Lighthouse Report 
+
+<img width="681" alt="Lighthouse report - screenshot" src="https://user-images.githubusercontent.com/98747053/161206398-d9716def-9114-490d-90f6-3f79b7e76595.png">
+
+
 # Testing 
 * I have performed a considerable amount of testing to ensure the site is fully responsive on all screen sizes.
 * The navigation links on all 3 pages, Home, Class and Contact had no issues at all.
